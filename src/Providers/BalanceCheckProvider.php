@@ -1,6 +1,6 @@
 <?php
 
-namespace Anand\LaravelPaytmWallet\Providers;
+namespace Ravindra\LaravelPaytmWallet\Providers;
 use Illuminate\Http\Request;
 // require __DIR__.'/../../lib/encdec_paytm.php';
 

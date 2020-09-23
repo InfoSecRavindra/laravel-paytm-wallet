@@ -1,6 +1,6 @@
 <?php
 
-namespace Anand\LaravelPaytmWallet;
+namespace Ravindra\LaravelPaytmWallet;
 
 
 use Illuminate\Support\ServiceProvider;
@@ -23,7 +23,7 @@ class PaytmWalletServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('Anand\LaravelPaytmWallet\Contracts\Factory', function ($app) {
+        $this->app->singleton('Ravindra\LaravelPaytmWallet\Contracts\Factory', function ($app) {
         // $this->app->singleton('PaytmWallet', function ($app) {
             return new PaytmWalletManager($app);
         });
@@ -37,6 +37,6 @@ class PaytmWalletServiceProvider extends ServiceProvider
 
 
     public function provides(){
-        return ['Anand\LaravelPaytmWallet\Contracts\Factory'];
+        return ['Ravindra\LaravelPaytmWallet\Contracts\Factory'];
     }
 }

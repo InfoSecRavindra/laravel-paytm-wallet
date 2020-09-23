@@ -1,6 +1,6 @@
 <?php
 
-namespace Anand\LaravelPaytmWallet\Facades;
+namespace Ravindra\LaravelPaytmWallet\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -29,6 +29,6 @@ class PaytmWallet extends Facade
 
     protected static function getFacadeAccessor()
     {
-        return 'Anand\LaravelPaytmWallet\Contracts\Factory';
+        return 'Ravindra\LaravelPaytmWallet\Contracts\Factory';
     }
 }

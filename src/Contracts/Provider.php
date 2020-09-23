@@ -1,6 +1,6 @@
 <?php
 
-namespace Anand\LaravelPaytmWallet\Contracts;
+namespace Ravindra\LaravelPaytmWallet\Contracts;
 
 interface Provider
 {

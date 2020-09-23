@@ -1,7 +1,7 @@
 <?php
 
-namespace Anand\LaravelPaytmWallet\Providers;
-use Anand\LaravelPaytmWallet\Contracts\Provider as ProviderContract;
+namespace Ravindra\LaravelPaytmWallet\Providers;
+use Ravindra\LaravelPaytmWallet\Contracts\Provider as ProviderContract;
 use Illuminate\Http\Request;
 require __DIR__.'/../../lib/encdec_paytm.php';
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Anand\LaravelPaytmWallet\Providers;
-use Anand\LaravelPaytmWallet\Facades\PaytmWallet;
-use Anand\LaravelPaytmWallet\Traits\HasTransactionStatus;
+namespace Ravindra\LaravelPaytmWallet\Providers;
+use Ravindra\LaravelPaytmWallet\Facades\PaytmWallet;
+use Ravindra\LaravelPaytmWallet\Traits\HasTransactionStatus;
 use Illuminate\Http\Request;
 
 class ReceivePaymentProvider extends PaytmWalletProvider{

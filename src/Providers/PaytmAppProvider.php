@@ -1,6 +1,6 @@
 <?php
 
-namespace Anand\LaravelPaytmWallet\Providers;
+namespace Ravindra\LaravelPaytmWallet\Providers;
 use Illuminate\Http\Request;
 
 class PaytmAppProvider extends PaytmWalletProvider{

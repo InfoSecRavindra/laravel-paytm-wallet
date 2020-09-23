@@ -1,7 +1,7 @@
 <?php
 
-namespace Anand\LaravelPaytmWallet\Traits;
-use Anand\LaravelPaytmWallet\Facades\PaytmWallet;
+namespace Ravindra\LaravelPaytmWallet\Traits;
+use Ravindra\LaravelPaytmWallet\Facades\PaytmWallet;
 
 trait HasTransactionStatus {
 
