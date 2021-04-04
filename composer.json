@@ -1,0 +1,33 @@
+{
+    "name": "infosecravindra/laravel-paytm-wallet",
+    "description": "Integrate paytm wallet easily with this package. This package uses official Paytm PHP SDK's",
+    "license": "MIT",
+    "keywords": ["paytm wallet", "laravel"],
+    "authors": [
+        {
+            "name": "Ravindra Sisodia",
+            "email": "rscipher001@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": ">=8.0",
+        "illuminate/contracts": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ravindra\\LaravelPaytmWallet\\": "src/"
+        }
+    },
+     "extra": {        
+        "laravel": {
+            "providers": [
+                "Ravindra\\LaravelPaytmWallet\\PaytmWalletServiceProvider"
+            ],
+            "aliases": {
+                "PaytmWallet": "Ravindra\\LaravelPaytmWallet\\Facades\\PaytmWallet"
+            }
+        }
+    }
+}
